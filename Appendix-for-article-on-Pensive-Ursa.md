@@ -114,9 +114,9 @@ Additionally the `unattend` command enables the attacker to steal other artifact
 | `REMO`                                           | Communication using named pipes      |
 | `INJE`                                           | Injection class                      |
 | `EVEN`                                           | Event log monitoring                 |
-| `PEEP | PEEW`                                    | Active window monitoring             |
+| `PEEP` or `PEEW`                                 | Active window monitoring             |
 | `SOLV`                                           | Solve tasks from the C2              |
-| `GPCK | GHOO | GW` + path `| GFIL | GINF | GMAP` | Autos related working threads        |
+| `GPCK`, `GHOO`, `GW` + path, `GFIL`, `GINF` or `GMAP` | Autos related working threads   |
 | `KEYL`                                           | Key logger                           |
 | `SEND`                                           | Communication with the C2 using HTTP |
 | `HIND`                                           | WMI consumer class                   |
