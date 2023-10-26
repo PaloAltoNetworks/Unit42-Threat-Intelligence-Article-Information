@@ -90,7 +90,7 @@ Additionally the `unattend` command enables the attacker to steal other artifact
 - Internet Explorer
 - Outlook
 
-# Logs and Configuration Directory Structure
+## Logs and Configuration Directory Structure
 
 - `Root directory`
   - `Main log file`
@@ -106,7 +106,7 @@ Additionally the `unattend` command enables the attacker to steal other artifact
     - `files`
     - `hashes`
 
-# Threads Names and Descriptions
+## Threads Names and Descriptions
 
 | Thread Name                                      | Description                          |
 | ------------------------------------------------ | ------------------------------------ |
