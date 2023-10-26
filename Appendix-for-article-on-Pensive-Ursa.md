@@ -53,3 +53,39 @@ These artifacts are as follows:
 
 ## The `Unattend` Command: Cloud and Sensitive Applications Credentials Gathering
 
+- Google Cloud
+  - `Gcloud\credentials.db`
+  - `Gcloud\legacy_credentials`
+  - `Gcloud\access_tokens.db`
+- Amazon Web Services
+  - `.aws\credentials`
+- Microsoft Azure
+  - `azure\azureProfile.json`
+  - `.azure\TokenCache.dat`
+  - `.azure\AzureRMContext.json`
+  - `Windows Azure Powershell\TokenCache.dat`
+  - `Windows Azure Powershell\AzureRMContext.json`
+- IBM Bluemix
+  - `Bluemix\config.json`
+  - `.bluemix\.cf\config.json`
+
+Additionally the `unattend` command enables the attacker to steal other artifacts. 
+
+- `unattend.xml`, `sysprep.xml` and `sysprep.inf` are used to modify Windows settings during Setup. If these files are not properly sanitized, they can leave administrative credentials in plain text.
+- `web.config` is read by IIS and the ASP.NET Core Module to configure an app hosted with IIS. An attacker can use this file for privilege escalation. 
+- Keepass passwords
+  - `KeePass.config.xml`
+  - `ProtectedUserKey.bin`
+
+## The `Steal` Command
+
+- Git SCM
+- Signal 
+- OpenVPN
+- Windows credentials (using the [`CredEnumerateW`](https://learn.microsoft.com/en-us/windows/win32/api/wincred/nf-wincred-credenumeratew) winAPI)
+- FileZilla
+- WinSCP
+- Chromium-based browsers
+- Mozilla-based browsers
+- Internet Explorer
+- Outlook
