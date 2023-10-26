@@ -89,3 +89,42 @@ Additionally the `unattend` command enables the attacker to steal other artifact
 - Mozilla-based browsers
 - Internet Explorer
 - Outlook
+
+# Logs and Configuration Directory Structure
+
+- `Root directory`
+  - `Main log file`
+  - `common`
+    - `wordlist` (unreferenced file)
+  - `logs`
+    - `keys` (keylogger file path)
+  - `config`
+  - `task`
+  - `result`
+  - `peeps`
+  - `autos`
+    - `files`
+    - `hashes`
+
+# Threads Names and Descriptions
+
+| Thread Name                                      | Description                          |
+| ------------------------------------------------ | ------------------------------------ |
+| `MIND`                                           | Anti-analysis                        |
+| `REMO`                                           | Communication using named pipes      |
+| `INJE`                                           | Injection class                      |
+| `EVEN`                                           | Event log monitoring                 |
+| `PEEP | PEEW`                                    | Active window monitoring             |
+| `SOLV`                                           | Solve tasks from the C2              |
+| `GPCK | GHOO | GW` + path `| GFIL | GINF | GMAP` | Autos related working threads        |
+| `KEYL`                                           | Key logger                           |
+| `SEND`                                           | Communication with the C2 using HTTP |
+| `HIND`                                           | WMI consumer class                   |
+| `REM*`                                           | Nested remote class                  |
+| `SOL*`                                           | Nested solver class                  |
+
+## WMI Consumer `Morphing` Thread
+
+This is one of the threads that the threat operator enabled in Kazuar’s "non-interactive mode." Kazuar has the ability to search WMI event consumers for the ones that have the `ActiveScriptEventConsumer` class active. This class allows a user to run an ActiveX script code whenever the OS delivers an event. Kazaur can edit the script that is configured to be run by the `ActiveScriptEventConsumer` class with a new script, as shown in Figure 30. 
+
+
