@@ -127,4 +127,41 @@ Additionally the `unattend` command enables the attacker to steal other artifact
 
 This is one of the threads that the threat operator enabled in Kazuar’s "non-interactive mode." Kazuar has the ability to search WMI event consumers for the ones that have the `ActiveScriptEventConsumer` class active. This class allows a user to run an ActiveX script code whenever the OS delivers an event. Kazaur can edit the script that is configured to be run by the `ActiveScriptEventConsumer` class with a new script, as shown in Figure 30. 
 
+![Figure 30](https://github.com/PaloAltoNetworks/Unti42-Threat-Intelligence-Article-Information/assets/17553852/79784659-9fee-4ea2-8334-54caf6843c41)
+_Figure 30. Snippet of code from the ​​WMI Consumer `Morphing` class._
+
+## Anti-Analysis 
+
+### Honeypot Check
+
+If Kazuar found Kaspersky’s honeypot on the machine, it checks if more than five of the following processes or files exist on the machine:
+
+**Process list:**
+
+- Bitcoin-Qt
+- Bitcoind
+- IExplore
+- Firefox
+- Infium
+- Chrome
+- Opera
+- Skype
+- ICQ
+- AIM
+- Qip
+
+**Filenames:**
+
+- `Financial_report.xls`
+- `Financial_report.ppt`
+- `Credit-report.pdf`
+- `Accounts.xlsx`
+- `Passwords.txt`
+- `Invoice.docx`
+- `Report.doc`
+- `Keys.txt`
+- `Пароли.txt` ("passwords" in Russian)
+- `Отчёт.rtf` ("report" in Russian)
+- `Отчёт.doc` ("report" in Russian)
+
 
