@@ -164,4 +164,195 @@ If Kazuar found Kaspersky’s honeypot on the machine, it checks if more than fi
 - `Отчёт.rtf` ("report" in Russian)
 - `Отчёт.doc` ("report" in Russian)
 
+### Analysis Tools Check
 
+- Immunity Debugger
+- Process Explorer
+- Process Monitor
+- Process Hacker
+- SysInspector
+- SysAnalyzer
+- MegaDumper
+- Wireshark
+- PE Tools
+- Fiddler
+- TCPView
+- OllyDbg
+- WinDbg
+- X64dbg
+- X32dbg
+- DnSpy
+- Joeboxcontrol
+- Joeboxserver
+- Dumpcap
+
+### Sandbox Libraries Check
+
+- `Dir_watch.dll`
+- `Cmdvrt32.dll`
+- `Sbiedll.dll`
+- `Api_log.dll`
+- `Pstorec.dll`
+- `sxin.dll`
+
+## Auto-Runs Check on the Infected Machine
+
+### Registry (HKCU and HKLM):
+
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce`
+- `SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run`
+- `SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnce`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\RunService`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnceService`
+- `SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunService`
+- `SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\RunOnceService`
+- `SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run`
+- `SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run,`
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\VmApplet`
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Userinit`
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify`
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell`
+- `SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\load`
+- `SOFTWARE\Microsoft\Office test\Special\Perf`
+- `SOFTWARE\Microsoft\Command Processor\AutoRun`
+- `Control Panel\Desktop\SCRNSAVE.EXE`
+
+### WMI Consumers
+
+- `ActiveScriptEventConsumer`
+- `CommandLineEventConsumer`
+
+### Environment Variables
+
+- `UserInitMprLogonScript` - Contains configured logon scripts
+- `APPDOMAIN_MANAGER_TYPE` and APPDOMAIN_MANAGER_ASM` - used for [AppDomain Manager Injection](https://www.rapid7.com/blog/post/2023/05/05/appdomain-manager-injection-new-techniques-for-red-teams/)
+- _`COR_PROFILER_PATH`_ and _`COR_PROFILER`_ - [may be used](https://redcanary.com/blog/cor_profiler-for-persistence/) to load DLLs into .NET processes
+
+## Optional Injected Processes
+
+- IExplore
+- Outlook
+- Firefox
+- Jusched
+- Vivaldi
+- Browser
+- Nlnotes
+- MSEdge
+- Notes2
+- Chrome
+- Opera
+- Brave
+
+## Hard-Coded Configuration Paths
+
+- `Microsoft\Windows\PowerShell`
+- `Microsoft\Office\PowerPoint`
+- `Microsoft\Internet Explorer`
+- `Microsoft\Office\Publisher`
+- `Microsoft\Windows\Explorer`
+- `Microsoft\Office\Outlook`
+- `Microsoft\Windows\Shell`
+- `Microsoft\Office\Access`
+- `Microsoft\Office\Visio`
+- `Microsoft\Office\Excel`
+- `Microsoft\Media Player`
+- `Microsoft\Office\Word`
+- `Microsoft\VisualStudio`
+- `Microsoft\CLR_v2.0_32`
+- `Microsoft\CLR_v4.0_32`
+- `Microsoft\Powerpoint`
+- `Microsoft\Installer`
+- `Microsoft\CLR_v2.0`
+- `Microsoft\CLR_v4.0`
+- `Microsoft\OneDrive`
+- `Microsoft\Network`
+- `Microsoft\Outlook`
+- `Microsoft\MSBuild`
+- `Microsoft\Office`
+- `Microsoft\DotNet`
+- `Microsoft\Access`
+- `Microsoft\AddIns`
+- `Microsoft\Crypto`
+- `Microsoft\Vault`
+- `Microsoft\Excel`
+- `Mozilla\Firefox`
+- `Microsoft\Word`
+- `Microsoft`
+- `Adobe`
+
+## Comprehensive System Profiling
+
+- Agent configuration
+- Operating system information
+- Hardware information
+- User information
+- Logon sessions
+- User profiles
+- Folders information
+- Run command history
+- Explorer typed path
+- Explorer search history 
+- Environment variables
+- UAC settings
+- Internet settings
+- DNS cache
+- .NET/PS versions
+- WSUS settings
+- Installed software
+- Hot patches
+- System update history
+- System services
+- System drivers
+- Optional OS features
+- Security software installed
+- AMSI providers
+- Security packages
+- Applocker settings
+- Logical drives
+- USB devices
+- Network adapters
+- Network ARP table
+- Network connections
+- Network shares
+- RDP connections
+- Running processes
+- Active windows
+- Recent open Office documents
+- Outlook downloads 
+- Recycle bin items
+- Screen capture at infection time
+
+## Browser Data
+
+- **Internet Explorer**
+- **Chromium Browsers**
+  - 7Star Browser
+  - Amigo Browser
+  - Atom Browser
+  - Brave Browser
+  - Cent Browser
+  - Chedot Browser
+  - Chrome Browser
+  - Chrome SxS
+  - Chromium Browser
+  - CocCoc Browser
+  - Comodo Browser
+  - Elements Browser
+  - Epic Browser
+  - Kometa Browser
+  - Microsoft Edge
+  - Opera Browser
+  - Opera GX Browser
+  - Orbitum Browser
+  - Sputnik Browser
+  - Torch Browser
+  - Uran Browser
+  - Vivaldi Browser
+  - Yandex Browser
+- **Mozilla Browsers**
+  - Mozilla Firefox
+  - CyberFox Browser
+  - Comodo IceDragon
+  - Mozilla IceCat
+  - K-Meleon Browser
