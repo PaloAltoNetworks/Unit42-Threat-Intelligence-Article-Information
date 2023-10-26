@@ -1,6 +1,4 @@
-# Over the Kazuar’s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive Ursa (aka Turla)
-
-# Appendix
+# Appendix for "Over the Kazuar’s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive Ursa (aka Turla)"
 
 ## Configuration Files Encryption
 
