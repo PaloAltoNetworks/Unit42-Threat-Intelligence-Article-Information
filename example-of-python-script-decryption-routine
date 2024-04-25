@@ -1,3 +1,4 @@
+# Linked from: https://unit42.paloaltonetworks.com/malware-configuration-extraction-techniques-guloader-redline-stealer/
 @staticmethod
 def decrypt(ctx: bytes, key: bytes) -> Optional[bytes]:
     try:
