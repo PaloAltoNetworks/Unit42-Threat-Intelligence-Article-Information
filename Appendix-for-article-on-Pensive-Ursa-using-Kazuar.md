@@ -1,4 +1,6 @@
-# Appendix for "[Over the Kazuar’s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive Ursa (aka Turla)]([url](https://unit42.paloaltonetworks.com/pensive-ursa-uses-upgraded-kazuar-backdoor/))"
+# Appendix for "Over the Kazuar’s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive Ursa (aka Turla)"
+
+[Link to article](https://unit42.paloaltonetworks.com/pensive-ursa-uses-upgraded-kazuar-backdoor/)
 
 ## Configuration Files Encryption
 
