@@ -1,0 +1,126 @@
+INDICATORS FROM ACTIVITY CLUSTER CL-STA-0910
+
+URLS FOR PAYLOAD DOWNLOADED VIA SHELL SCRIPTS:
+
+- hxxp://45.56.127[.]213/bmp.log
+- hxxp://45.56.127[.]213/cgo.gz
+- hxxp://45.56.127[.]213/e.js
+- hxxp://45.56.127[.]213/f.js
+- hxxp://45.56.127[.]213/lighh
+- hxxp://45.56.127[.]213/login.php
+- hxxp://45.56.127[.]213/logout.php
+- hxxp://97.107.138[.]78/cgo.gz
+- hxxp://97.107.138[.]78/chg.cfg
+- hxxp://97.107.138[.]78/chg.gz
+- hxxp://97.107.138[.]78/de.js
+- hxxp://97.107.138[.]78/e.js
+- hxxp://97.107.138[.]78/err.log
+- hxxp://97.107.138[.]78/ext.cfg
+- hxxp://97.107.138[.]78/f.js
+- hxxp://97.107.138[.]78/ff
+- hxxp://97.107.138[.]78/fo.cfg
+- hxxp://97.107.138[.]78/ini.cfg
+- hxxp://97.107.138[.]78/logo.ico
+- hxxp://97.107.138[.]78/logo.php
+- hxxp://97.107.138[.]78/md.js
+- hxxp://97.107.138[.]78/min.js
+- hxxp://97.107.138[.]78/n.js
+- hxxp://97.107.138[.]78/ot.cfg
+- hxxp://97.107.138[.]78/q.js
+- hxxp://97.107.138[.]78/qu.js
+- hxxp://97.107.138[.]78/rr
+- hxxp://97.107.138[.]78/rsdog
+- hxxp://97.107.138[.]78/ver.cfg
+- hxxp://172.105.216[.]208/lighh
+- hxxp://172.105.216[.]208/login.php
+- hxxp://172.105.216[.]208/logout.php
+
+FILE PATHS USED WHEN DOWNLOADING PAYLOADS AND DATA:
+
+- /tmp/21.js
+- /tmp/23.js
+- /tmp/2d.js
+- /tmp/acc.log
+- /tmp/cgo.cfg
+- /tmp/cgo.gz
+- /tmp/ds.js
+- /tmp/ejs
+- /tmp/err.log
+- /tmp/exhtpvr
+- /tmp/f.js
+- /tmp/fjs
+- /tmp/lighh
+- /tmp/md.js
+- /tmp/patch2
+- /tmp/r
+- /tmp/rs
+- /tmp/rsdog
+- /var/patch1
+
+SHA256 HASHES OF SHELL SCRIPT DOWNLOADING ADDITIONAL PAYLOADS AND PERFORMING OPERATIONS:
+
+- 01903c37963aeb8aae5dae67f51b5eb859fa9fbbcd1ff3d7577dd8fb6aeaceb2
+- 09b88c89a11eca82a053e98d85d7ec705ba40ca74de9a50f3b28d114a6432a27
+- 09b88c89a11eca82a053e98d85d7ec705ba40ca74de9a50f3b28d114a6432a27
+- 0d9782f39cf3a40a50236f9db5d87842fdeb1eb097ccf175f27978ac4f3df572
+- 0f27280a4b361912b1df0655bb7c863aa98e399b8a87a1494d721995bafc9c2c
+- 119e25da3d314dc79262e402cce7157b5df80d7676277ff3cda1596f88621bcc
+- 1f7e4eed5b79ef1d56bf2abde2388d5366365e77c201dd8223af17749423c9a6
+- 23435043e493775e5bd3f13f9da145f7b520868485e6c1b021c61a5a347304bf
+- 25ad28790ce564c9f5347f3a6421afd7ec223ce22818de7d444aa45e0a216507
+- 2e31eb2753ee4607cfa54897fec36be1f0ad91298e97d66b02ebeb153f5e6b3c
+- 3359dfef3f433ccecc6d066f64060f50db467c3b57113c205c74612f82eddc9b
+- 45df000040409e86fb9ecb0082553b21ecc73547e84ee24a7dcf6a8d9a34a9aa
+- 4dde4eab3c97db44504ce603535e4c7f8c5a39390cb1c0cdd4f016d0195de5d4
+- 51833fc226b9783a8c7528abe7d31bb01147dd922a596ba946f8d02f434ba393
+- 61fa52d2bd6a2b81b67953575d4ed7d0f3fe35166f4f9dac3a3cedcfe151d214
+- 6a64648c61ed52b48ac61ec9d82ab6c32b27a936b3b28f92fe5fb9ef311dd07e
+- 80b34412684fa48395925265d7bc6cde5f6d132b4d3942d1439b8d5134249472
+- 832f667ef1de39ff67e308f7e4647817d2fef0a62730fb720c8929fbd526d286
+- 97b1546cd05c3d2c4264794f10757ee5d8f46ce27862f71a5bbdfd9349bc6c82
+- 98940462f079b136225638a9501e27b12e73df547c994f9664164dfdea290d17
+- a20d7782907adf157d702321854fb446e15a4431fbbefde5be87a18931376510
+- a2f0aba3579bc02e0138b37c02226e179c9d5cd76caf42e24882fb368ee35628
+- a8e1f564194ff75eb5002e94bec35c9c021e945fcd4df2593373f4475a2d1375
+- b1a663e1578d1b40fec3258244e1bd97b36612244aa0e7c53c2c5125d57757e1
+- b531b77c48785a794d4f34a9e9decb2a414a5b76908ab35d552e23dddcae17f0
+- bca90a348c861a94f6accdb237c9d24c645256f1ae8b60099847ca9e9ddfb60e
+- bf5e9b16aadd5b545eeffd4da3411690153144551acea4129043077bec7c91bb
+- c4a3b953fd8128a6ae68c097a46329a7e209114ead9d624de854edb2f1c1dbfb
+- cdd81359495c49b3f12d286ec4c98fc80f33e3e5703b8ae2aa7c801a1432cc52
+- cdd81359495c49b3f12d286ec4c98fc80f33e3e5703b8ae2aa7c801a1432cc52
+- da2f148961e9bf2717f38ccada513fe46b3519799c930f7907dcad5654f6754b
+- db6d1010f34fa027183653a17256f56028cdd77c5c06a249e5c34628dbb45c7e
+- e69cfa188f6e1eb43706cf42ee313d5c4d3292ffaab156d610279897bfb7794c
+- ea720d76280aec12a81eab276955eb52ee3117117bb70ec85faf1ece518d8a95
+- f3c52e73b4eb5d09d36af64dbd85b1174ce8f4421467f956b35c97ae68f546fd
+- f55ab4fd9789b808ac9291aa4d93eae02c179ff2581fe1e940bd9387dc1585a9
+- fe2052918a3bf958b5e651e46698ec9a58ece7bd5686e76388fb9031a3f33189
+
+SHA256 HASHES OF SHELL SCRIPT DELETING TRACES AND PERFORMING OPERATIONS:
+
+- 01a96bd17371ba7b1745b67e251bfec8a6e3d8194ff8ee7f1cef1c97d61a22cc
+- 25ad28790ce564c9f5347f3a6421afd7ec223ce22818de7d444aa45e0a216507
+- 2906ab29b2f6b66174572c6a53950e7e0596291036f4a937fbea94824f5edaf1
+- d9ba66e3d688f3302cb0c6370fc6ac8f3f56154fe6ab19c11b402f4dce91b3e1
+- da93e60b8df1821bc6d11d989d20ef601425a0ff5c2114cabfc104a9253391a1
+
+SHA256 HASHES OF SHELL SCRIPT RUNNING PYTHON CODE:
+
+- c4f52d8a70b33af164c3aed735cfe0a6de5fe5085a510df787565d34c62f584b
+- e1d2aac1a26d7c39ee1f7d97b95548fc91e276c53f32ce7058d522d5705bb1a7
+- d0426b9f36cd962beb6c1dfe0ff9f71ca201ce276c7a2ef90dbb9453f86ff1b0
+- f75d4b4ea7b1ca5b6c00918927ec07c5da01be08a72815c23d525c0ff127aded
+
+PYTHON FILE _.LOG.PY_:
+
+- c052bab73ffac02cbe14766956a43bbd990170b67099b72ccbf7b4a54fc4e4f9
+
+FILE PATHS USED FOR POTENTIAL EXFILTRATION:
+
+- /etc/nginx/sslvpn/location.conf
+- /var/appweb/sslv
+- /var/appweb/sslvpndocs/global-protect/l.css
+- /var/appweb/sslvpndocs/global-protect/p.css
+- /var/appweb/sslvpndocs/global-protect/u.css
+- /var/appweb/sslvpndocs/global-protect/x.css
