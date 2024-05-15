@@ -115,12 +115,3 @@ SHA256 HASHES OF SHELL SCRIPT RUNNING PYTHON CODE:
 PYTHON FILE _.LOG.PY_:
 
 - c052bab73ffac02cbe14766956a43bbd990170b67099b72ccbf7b4a54fc4e4f9
-
-FILE PATHS USED FOR POTENTIAL EXFILTRATION:
-
-- /etc/nginx/sslvpn/location.conf
-- /var/appweb/sslv
-- /var/appweb/sslvpndocs/global-protect/l.css
-- /var/appweb/sslvpndocs/global-protect/p.css
-- /var/appweb/sslvpndocs/global-protect/u.css
-- /var/appweb/sslvpndocs/global-protect/x.css
