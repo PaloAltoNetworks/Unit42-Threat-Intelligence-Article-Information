@@ -1,0 +1,428 @@
+Appendix for Threat Assessment: Repellent Scorpius, Distributors of Cicada3301 Ransomware
+
+Targeted Services
+
+AcronisAgent
+AcrSch2Svc
+backup
+BackupExecAgentAccelerator
+BackupExecAgentBrowser
+BackupExecDiveciMediaService
+BackupExecJobEngine
+BackupExecManagementService
+BackupExecManagerService
+BackupExecRPCService
+BackupExecVSSProvider
+CAARCUpdateSvc
+CASAD2DWebSvc
+ccEvtMgr
+ccSetMgr
+DefWatch
+GxBlr
+GxCIMgr
+GxCIMgrS
+GxCVD
+GxFWD
+GXMMM
+GxVss
+GxVssHWProv
+Intuit.QuickBooks.FCS
+memtas
+mepocs
+msexchange
+MSExchange
+MSExchange$
+MVArmor
+MVarmor64
+mysql
+mysql$
+PDVFSService
+QBCFMonitorService
+QBDBMgrN
+QBFCService
+QBIDPService
+RTVscan
+SAP
+SAP$
+SAPD$
+SAPHostControl
+SAPHostExec
+SAPService
+SavRoam
+sophos
+sql
+sql$
+stc_raw_agent
+svc$
+veeam
+VeeamDeploymentService
+VeeamNFSSvc
+VeeamTransportSvc
+VSNAPVSS
+vss
+WSBExchange
+zhudongfangyu
+
+New Cicada3301 Version - Services targeted via "net stop"
+
+eventlog
+MsDtsServer
+MSExchangeADTopology
+MSExchangeIS
+MSExchangeSA
+MSSQLSERVER
+MSSQLServerOLAPService
+ReportServer
+SQLBrowser
+SQLSERVERAGENT
+SQLWriter
+WSearch
+wuauserv
+
+Targeted Processes
+
+agntsvc
+avagent
+avscc
+bedbh
+benetns
+bengien
+beserver
+CagService
+cvd
+cvfwd
+CVMountd
+CVODS
+dbeng50
+dbsnmp
+DellSystem
+encsvc
+EnterpriseClient
+excel
+firefox
+infopath
+isqlplussvc
+msaccess
+mspub
+mydesktopq
+mydesktopservic
+notepad
+ocautoupds
+ocomm
+ocssd
+onenote
+oracle
+outlook
+powerpnt
+pvlsvr
+QBCFMonitorSe
+QBDBMgrN
+QBIDPService
+raw_agent_svc
+SAP
+saphostexe
+saposcol
+sapstartsrv
+sqbcoreservic
+sql
+*sql*
+steam
+synctime
+tbirdconfig
+TeamViewer
+TeamViewer_Service
+thebat
+thunderbird
+tv_w32
+tv_x64
+VeeamDeploymentSvc
+VeeamNFSSvc
+VeeamTransportSvc
+visio
+vsnapvss
+vxmon
+winword
+wordpad
+xfssvccon
+
+Excluded File Extensions / Directory (Older variant)
+
+*.exe
+*.ini
+*.inf
+*.pol
+*.cmd
+*.ps1
+*.vbs
+*.bat
+*.pagefile.sys
+*.hiberfil.sys
+*.drv
+*.msc
+*.dll
+*.lock
+*.sys
+*.msu
+*.lnk
+*.search-ms
+*\$windows.~ws*
+*\$windows.~bt*
+*\windows*
+*\windows.old*
+*\NTUSER.DAT*
+*\autorun.inf
+*\boot.ini
+*\desktop.ini
+*\system volume information*
+*\Boot*
+*\DumpStack.log.tmp
+*\PerfLogs*
+*\Users\*\Microsoft_Corporation\*.config
+*\AppData\Local\Microsoft\GameDVR*
+*\AppData\Local\Packages\Microsoft.*
+*\AppData\Local\Packages\MicrosoftWindows.*
+*\AppData\Local\Packages\Internet Explorer*
+*\AppData\Local\Temp*
+*\Program Files\Common Files\microsoft shared*
+*\Program Files\Common Files\Services*
+*\Program Files\Common Files\System*
+*\Program Files\Internet Explorer*
+*\Program Files\ModifiableWindowsApps*
+*\Program Files\Uninstall Information*
+*\Program Files\Windows Defender*
+*\Program Files\Windows Mail*
+*\Program Files\Windows Media Player*
+*\Program Files\Windows NT*
+*\Program Files\Windows Photo Viewer*
+*\Program Files\Windows Portable Devices*
+*\Program Files\Windows Security*
+*\Program Files\Windows Sidebar*
+*\Program Files\WindowsApps*
+*\Program Files\WindowsPowerShell*
+*\Program Files (x86)\Common Files*
+*\Program Files (x86)\Common Files\Microsoft Shared*
+*\Program Files (x86)\Common Files\Services*
+*\Program Files (x86)\Common Files\System*
+*\Program Files (x86)\Internet Explorer*
+*\Program Files (x86)\Microsoft\*Edge*
+*\Program Files (x86)\Microsoft\Temp*
+*\Program Files (x86)\Microsoft.NET*
+*\Program Files (x86)\Windows Defender*
+*\Program Files (x86)\Windows Mail*
+*\Program Files (x86)\Windows Media Player*
+*\Program Files (x86)\Windows Multimedia Platform*
+*\Program Files (x86)\Windows NT*
+*\Program Files (x86)\Windows Photo Viewer*
+*\Program Files (x86)\Windows Portable Devices*
+*\Program Files (x86)\Windows Security*
+*\Program Files (x86)\Windows Sidebar*
+*\Program Files (x86)\WindowsPowerShell*
+*\ProgramData\ssh
+*\ProgramData\ntuser.pol
+*\ProgramData\regid.*.com.microsoft
+*\ProgramData\USOPrivate*
+*\ProgramData\USOShared*
+*\ProgramData\Microsoft\UEV*
+*\ProgramData\Microsoft\Device Stage*
+*\ProgramData\Microsoft\DeviceSync*
+*\ProgramData\Microsoft\Diagnosis*
+*\ProgramData\Microsoft\DiagnosticLogCSP*
+*\ProgramData\Microsoft\DRM*
+*\ProgramData\Microsoft\EdgeUpdate*
+*\ProgramData\Microsoft\Event Viewer*
+*\ProgramData\Microsoft\IdentityCRL
+*\ProgramData\Microsoft\MapData*
+*\ProgramData\Microsoft\MF*
+*\ProgramData\Microsoft\NetFramework*
+*\ProgramData\Microsoft\Network*
+*\ProgramData\Microsoft\Provisioning*
+*\ProgramData\Microsoft\Search*
+*\ProgramData\Microsoft\SmsRouter*
+*\ProgramData\Microsoft\Spectrum*
+*\ProgramData\Microsoft\Speech_OneCore*
+*\ProgramData\Microsoft\Storage Health*
+*\ProgramData\Microsoft\User Account Pictures*
+*\ProgramData\Microsoft\Vault*
+*\ProgramData\Microsoft\WDF*
+*\ProgramData\Microsoft\Windows*
+*\ProgramData\Microsoft\Windows Defender*
+*\ProgramData\Microsoft\Windows NT*
+*\ProgramData\Microsoft\Windows Security Health*
+*\ProgramData\Microsoft\WinMSIPC*
+*\ProgramData\Microsoft\WPD*
+*\ProgramData\Microsoft\Crypto\RSA\MachineKeys\*
+*\ProgramData\Microsoft\ServerManager\Events\FileServer.Events.xml
+*\ProgramData\Packages\USOPrivate*
+*\ProgramData\Packages\WindowsHolographicDevices*
+*\ProgramData\Packages\USOShared*
+*\ProgramData\Packages\MicrosoftWindows.*
+*\ProgramData\Packages\Microsoft.*
+*\Windows\Temp\*
+*\Windows\Logs\*
+*\Windows\SoftwareDistribution*
+*\Windows\Installer\*
+*\Windows\NTDS*
+*\Windows\SYSVOL*
+*\Windows\System32\*
+*\Windows\Security\*
+
+
+Excluded File Extensions / Directory (New variant)
+
+*.bat
+*.cmd
+*.dll
+*.drv
+*.exe
+*.hiberfil.sys
+*.inf
+*.ini
+*.lnk
+*.lock
+*.msc
+*.msu
+*.pagefile.sys
+*.pol
+*.ps1
+*.search-ms
+*.sys
+*.vbs
+*\AppData\Local\Microsoft\GameDVR*
+*\AppData\Local\Packages\Internet Explorer*
+*\AppData\Local\Packages\Microsoft.*
+*\AppData\Local\Packages\MicrosoftWindows.*
+*\AppData\Local\Temp*
+*\autorun.inf
+*\boot.ini
+*\Boot*
+*\desktop.ini
+*\DumpStack.log.tmp
+*\NTUSER.DAT*
+*\PerfLogs*
+*\Program Files (x86)\Common Files*
+*\Program Files (x86)\Common Files\Microsoft Shared*
+*\Program Files (x86)\Common Files\Services*
+*\Program Files (x86)\Common Files\System*
+*\Program Files (x86)\Internet Explorer*
+*\Program Files (x86)\Microsoft.NET*
+*\Program Files (x86)\Microsoft\*Edge*
+*\Program Files (x86)\Microsoft\Temp*
+*\Program Files (x86)\Windows Defender*
+*\Program Files (x86)\Windows Mail*
+*\Program Files (x86)\Windows Media Player*
+*\Program Files (x86)\Windows Multimedia Platform*
+*\Program Files (x86)\Windows NT*
+*\Program Files (x86)\Windows Photo Viewer*
+*\Program Files (x86)\Windows Portable Devices*
+*\Program Files (x86)\Windows Security*
+*\Program Files (x86)\Windows Sidebar*
+*\Program Files (x86)\WindowsPowerShell*
+*\Program Files\Common Files\microsoft shared*
+*\Program Files\Common Files\Services*
+*\Program Files\Common Files\System*
+*\Program Files\Internet Explorer*
+*\Program Files\ModifiableWindowsApps*
+*\Program Files\Uninstall Information*
+*\Program Files\Windows Defender*
+*\Program Files\Windows Mail*
+*\Program Files\Windows Media Player*
+*\Program Files\Windows NT*
+*\Program Files\Windows Photo Viewer*
+*\Program Files\Windows Portable Devices*
+*\Program Files\Windows Security*
+*\Program Files\Windows Sidebar*
+*\Program Files\WindowsApps*
+*\Program Files\WindowsPowerShell*
+*\ProgramData\Microsoft\Crypto\RSA\MachineKeys\*
+*\ProgramData\Microsoft\Device Stage*
+*\ProgramData\Microsoft\DeviceSync*
+*\ProgramData\Microsoft\Diagnosis*
+*\ProgramData\Microsoft\DiagnosticLogCSP*
+*\ProgramData\Microsoft\DRM*
+*\ProgramData\Microsoft\EdgeUpdate*
+*\ProgramData\Microsoft\Event Viewer*
+*\ProgramData\Microsoft\IdentityCRL
+*\ProgramData\Microsoft\MapData*
+*\ProgramData\Microsoft\MF*
+*\ProgramData\Microsoft\NetFramework*
+*\ProgramData\Microsoft\Network*
+*\ProgramData\Microsoft\Provisioning*
+*\ProgramData\Microsoft\Search*
+*\ProgramData\Microsoft\ServerManager\Events\FileServer.Events.xml
+*\ProgramData\Microsoft\SmsRouter*
+*\ProgramData\Microsoft\Spectrum*
+*\ProgramData\Microsoft\Speech_OneCore*
+*\ProgramData\Microsoft\Storage Health*
+*\ProgramData\Microsoft\UEV*
+*\ProgramData\Microsoft\User Account Pictures*
+*\ProgramData\Microsoft\Vault*
+*\ProgramData\Microsoft\WDF*
+*\ProgramData\Microsoft\Windows Defender*
+*\ProgramData\Microsoft\Windows NT*
+*\ProgramData\Microsoft\Windows Security Health*
+*\ProgramData\Microsoft\Windows*
+*\ProgramData\Microsoft\WinMSIPC*
+*\ProgramData\Microsoft\WPD*
+*\ProgramData\ntuser.pol
+*\ProgramData\Packages\Microsoft.*
+*\ProgramData\Packages\MicrosoftWindows.*
+*\ProgramData\Packages\USOPrivate*
+*\ProgramData\Packages\USOShared*
+*\ProgramData\Packages\WindowsHolographicDevices*
+*\ProgramData\regid.*.com.microsoft
+*\ProgramData\ssh
+*\ProgramData\USOPrivate*
+*\ProgramData\USOShared*
+*\system volume information*
+*\Users\*\Microsoft_Corporation\*.config
+*\$windows.~bt*
+*\$windows.~ws*
+*\windows.old*
+*\windows*
+*\Windows\Installer\*
+*\Windows\Logs\*
+*\Windows\NTDS*
+*\Windows\Security\*
+*\Windows\SoftwareDistribution*
+*\Windows\System32\*
+*\Windows\SYSVOL*
+*\Windows\Temp\*
+
+Extensions Targeted For Encryption
+
+bmp
+doc
+docm
+docx
+dotm
+dotx
+gif
+jpeg
+jpg
+mdf
+odp
+ods
+odt
+pdf
+png
+potm
+ppsm
+ppsx
+pptm
+pptx
+psd
+ptox
+raw
+rtf
+sql
+tiff
+txt
+webp
+xlam
+xls
+xlsb
+xlsm
+xlsx
+xltm
+xltx
+
