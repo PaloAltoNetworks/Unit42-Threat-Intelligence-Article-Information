@@ -1,0 +1,75 @@
+NOVEMBER 2024: OPERATION LUNAR PEEK
+
+=====================REFERENCES=====================
+
+https://unit42.paloaltonetworks.com/cve-2024-0012-cve-2024-9474/
+https://security.paloaltonetworks.com/CVE-2024-0012
+https://security.paloaltonetworks.com/CVE-2024-9474
+
+
+==============COMMAND AND CONTROL INFRASTRUCTURE=====================
+
+-Threat actor IP addresses that have been identified attempting to scan and/or connect to management web interfaces in order to exploit CVE-2024-0012 and CVE-2024-9474. 
+
+-Many of these IP addresses have been known to proxy / tunnel traffic for anonymous VPN services, which may include legitimate user activity originating from these IPs to other destinations.
+
+91.208.197[.]167
+104.28.208[.]123 
+136.144.17[.]146
+136.144.17[.]149
+136.144.17[.]154
+136.144.17[.]158 
+136.144.17[.]161
+136.144.17[.]164
+136.144.17[.]166
+136.144.17[.]167
+136.144.17[.]170
+136.144.17[.]176
+136.144.17[.]177
+136.144.17[.]178
+136.144.17[.]180
+173.239.218[.]248 
+173.239.218[.]251
+209.200.246[.]173
+209.200.246[.]184
+216.73.162[.]69
+216.73.162[.]71
+216.73.162[.]73
+216.73.162[.]74
+
+-Unit 42 has also observed both manual and automated scanning originating from the following IP addresses:
+
+15.235.189[.]144
+15.235.189[.]145
+15.235.189[.]147
+15.235.189[.]149
+15.235.189[.]150
+15.235.189[.]152
+15.235.189[.]146
+15.235.189[.]148
+15.235.189[.]151
+15.235.189[.]153
+15.235.189[.]154
+15.235.189[.]155
+15.235.189[.]156
+15.235.189[.]157
+15.235.189[.]158
+15.235.189[.]159
+41.215.28[.]241
+45.32.110[.]123
+103.112.106[.]17
+104.28.240[.]123
+182.78.17[.]137
+216.73.160[.]186
+
+
+=====================POST COMPROMISE ARTIFACTS=====================
+
+-PHP web shell payload dropped on a compromised firewall
+
+3C5F9034C86CB1952AA5BB07B4F77CE7D8BB5CC9FE5C029A32C72ADC7E814668
+
+-User-agent string observed during multiple actor exploit attempts
+
+User-Agent:Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv 11.0) like Gecko
+
