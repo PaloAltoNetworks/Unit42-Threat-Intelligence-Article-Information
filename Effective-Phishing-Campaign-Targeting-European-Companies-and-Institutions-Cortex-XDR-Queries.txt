@@ -1,0 +1,44 @@
+Cortex XDR Queries
+For article titled: Effective Phishing Campaign Targeting European Companies and Institutions
+Authors: Shachar Roitman, Ohad Benyamin Maimon, William Gamazo
+
+###
+Phishing Indicators
+//Description : Searching for DNS made to the malicious domains
+
+dataset = xdr_data 
+| filter dns_query_name in ("technicaldevelopment.industrialization.buzz","vigaspino.com","technicaldevelopment.rljaccommodationstrust.buzz","purchaseorder.vermeernigeria.buzz","asdrfghjk3wr4e5yr6uyjhgb.mhp-hotels.buzz","purchaseorder.europeanfreightleaders.buzz","orderspecification.tekfenconstruction.buzz","d2715zbmeirdja.cloudfront.net","docusharepoint.fundament-advisory.buzz","wr43wer3ee.cyptech.com.au","orderconfirmation.dgpropertyconsultants.buzz","espersonal.org","orderconfirmating.symmetric.buzz","docs.doc2rprevn.buzz","9qe.daginvusc.com","vomc.qeanonsop.xyz","sensational-valkyrie-686c5f.netlify.app") 
+| fields _time , agent_hostname , actor_process_image_name , os_actor_process_command_line , dns_query_name , dns_resolutions , dns_reply_code 
+
+###
+IP Indicators
+//Description : Searching for IP Addresses associated with the phishing campaign
+
+dataset = cloud_audit_logs
+|filter caller_ip  in ("167.114.27.228",
+"144.217.158.133",
+"208.115.208.118",
+"13.40.68.32",
+"18.67.38.155",
+"91.92.245.39",
+"91.92.244.131",
+"91.92.253.66",
+"94.156.71.208",
+"91.92.242.68",
+"91.92.253.66",
+"188.166.3.116",
+"104.21.25.8",
+"172.67.221.137",
+"49.12.110.250",
+"74.119.239.234",
+"208.91.198.96",
+"94.46.246.46") 
+
+
+###
+User Agent String
+//Description : Searching for the User-Agent String "viaproxy" used in associated with the phishing campaign
+
+dataset = saas_audit_logs 
+|filter user_agent contains "viaproxy"
+| fields caller_ip ,user_agent
