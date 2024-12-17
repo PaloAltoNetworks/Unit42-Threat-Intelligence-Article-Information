@@ -1,6 +1,6 @@
 Cortex XDR Queries
-Blog: Effective Phishing Campaign Targeting European Companies and Institutions
-Authors: Shachar Roitman Ohad Benyamin Maimon William Gamazo
+Reference Article Title: Effective Phishing Campaign Targeting European Companies and Institutions
+Authors: Shachar Roitman, Ohad Benyamin Maimon, William Gamazo
 
 ###
 Phishing Indicators
