@@ -1,0 +1,60 @@
+INDICATORS OF COMPROMISE FOR THE FOLLOWING ARTICLE:
+
+- Evolution of Sophisticated Phishing Tactics: The QR Code Phenomenon
+
+32 EXAMPLES OF PDF DOCUMENTS:
+
+- 0209e93d568da3cd33f7af9e8733dd6eb56b3957b19622126f5115f36c2433dd
+- 07fec0a55956f66f20888e21f72a01c043b1c02a141c07988a6313099526c796
+- 0d0d4cd198de3a8b5af74fbebfc4c657609570157f8f961499433d0d5f748e7c
+- 0e03f873f1fb44e2d9f8ba29c80158f23735bb2ef819feb99f5623e933d752e9
+- 1737819220920abfa1d2201c0986df84b6570cbbc8d1aa96245151ed95c5992d
+- 1bd8cace9e338eacdd9e41b55c594404483e1a1860d1946f612ecd21a6a7e5e5
+- 1c3be2037b2a7b36311ef8fbcaa416ecb250dc20f5881570e8373e6e7f8237b1
+- 2f38a598fd49256691c707198c546ab84ddeafedbe72c60a9d03364263820d25
+- 389ba4f794b66abe4fde0ede57450abb63ba1a3cd43940925762f206b03e1bea
+- 3d66c093763eef0aa1b7c31242516d8d56e8fbe178f0915063045a6f85e61399
+- 3e8a9620823039b938b662d6285330baca7f3930e790faeaf4e4b95dd3c02427
+- 3f2a3cc1216bfc6d1aa6d1b75150350da86a3a8c9c5b014c4b5f7ca62935c88c
+- 46897a4edb500df17e32ccee8a3134e3a15db387dd0492d8e110200d8cb57b60
+- 56d3e1daddd87a2454084a4687d6c245b3a3b2f2010d705d2b1983c0e87a5509
+- 5a5134dfed0d47d23073547ace40ff63be0b3138d835d6d5b0a5c5c3e1aa3d8e
+- 6472293c24554bf52772a9f8543fe7ae973f1d5b4795ccc14940beeddcba118e
+- 6963820a6dadba2779a4b3999c5fde88faf8cf2dfa55d032b307217d9a80b77c
+- 6a0c8d59d5d0b2bd44d81a3f3e20bcd6c515ca6bd30c3bf090bccc4049276276
+- 891abde147f30c6dfd791f7f2f7cb081f5474f4f1392f670ed55a6d6cd3f14a2
+- 8c744eadec25b92de4ada45cdbc5e4c3507195127b2ed2f8450a7435b50b1f25
+- 8ea80304722e4285987b66dd8c74853b8a1474f585d7e24dc7616be4265d0d82
+- 9fe76bad7fa4f45ef49e720dde442f31f4c1847c7322ec09c09c5dd851f4de38
+- a4d40396bc437933a7f097e3ba997c91c82a5f516a719f6181ca4d51fa85a7aa
+- b39855bd43bf45aff70da6fbd918789b17ff58d9c6764cc40db9aec4ecb79cc0
+- b6130b45131035bec8d9b0304e934f2db0ee092ccaa709c3c2e8dd93770527bb
+- bc5e4ad38e324d742af28a2302bc6f59ec5f603f69b72bec7149b2cfbb50d980
+- bdcfe5bf6eba8f59248739e1634bc43d50f5c55efbb7412c3b41e94f1a313771
+- cbc5c6edb34ca898ca55f166ec64b23b057f9d8e8859c6fe9c9065bb42991f5b
+- de158906c855857d435635ebfd1ac97a6715b0a890f536aafcf55c601585f751
+- e2cdd7eb0ea24c22d1e3dfea557a5a47dfdcd7c6b00b05bd5d099e0c8633ac25
+- e682612a533382ddc188f547b37d93fd3f2de8ac7d5fd5f76eb92a22849109aa
+- fa38f31ed09774cfd2627bff376c27c44611b842b96f3215b0a491805d525a40
+
+19 EXAMPLES OF PHISHING URLS:
+
+- hxxp[:]//dhzyxo.promptexpression[.]com/?e=
+- hxxps[:]//a1892279.nhubiubuniunuion[.]workers[.]dev
+- hxxps[:]//advitya-heights[.]com/m/?c3Y9bzM2NV8xX25vbSZyYW5kPU9Ya3piRFU9JnVpZD1VU0VSMDYwMTIwMjVVMjUwMTA2NTA=N0123N
+- hxxps[:]//clases.pastorluiscastro[.]com/m/?c3Y9bzM2NV8xX25vbSZyYW5kPVVrcGhRMFE9JnVpZD1VU0VSMDYwMTIwMjVVMjUwMTA2NTA=N0123N
+- hxxps[:]//dmcomunicacaovisual[.]com/m/?c3Y9bzM2NV8xX3NwJnJhbmQ9UjFKVU9YUT0mdWlkPVVTRVIwNjAxMjAyNVUwMzAxMDYzOQ==N0123N
+- hxxps[:]//docdxsiga.goodbreadtrucklng[.]com/gbkrV/
+- hxxps[:]//docusignelectronic.courtappdirectory[.]com/6PkvL/?e=
+- hxxps[:]//docuusign.statementquo[.]com/ey8YO?e=
+- hxxps[:]//Docxxdoct.goodbreadtrucklng[.]com/U6bXM/
+- hxxps[:]//ebjv[.]com[.]au/filesharer
+- hxxps[:]//fa8ea903.nhubiubuniunuion[.]workers[.]dev/
+- hxxps[:]//fbl.5jbl2j.com/P6ThlTUUTfoKMgwqFKuQ/
+- hxxps[:]//gracious-tranquility-production.up.railway[.]app/fa910c532fc9c990/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJmYTkxMGM1MzJmYzljOTkwIiwiaWF0IjoxNzMzOTQ2NjQ0fQ.GDYykGf3tTA6K0GSiSvl01y_U0zveiKk9jmR_B3jTEw
+- hxxps[:]//htbilisim[.]com/m/?c3Y9bzM2NV8xX3NwJnJhbmQ9V2tVNWFuWT0mdWlkPVVTRVIwNjAxMjAyNVUwMzAxMDYzOQ==N0123
+- hxxps[:]//storage.cloudcourtdoc[.]com/wsTtv?e=
+- hxxps[:]//vk.hrewatecea[.]ru/0Jrsf/
+- hxxps[:]//web-ofisi[.]com[.]tr/yeni/T6epXbk4ck8zZNXyS5wyRzTbm43LOM1gR49#
+- hxxps[:]//wtcg.rolixanorn[.]ru/n7cLGYDs/
+- hxxps[:]//www.magneticosrmn[.]com/m/?c3Y9bzM2NV8xX3NwJnJhbmQ9T0hwWFUxZz0mdWlkPVVTRVIwNjAxMjAyNVUwMzAxMDYzOQ==N0123N
