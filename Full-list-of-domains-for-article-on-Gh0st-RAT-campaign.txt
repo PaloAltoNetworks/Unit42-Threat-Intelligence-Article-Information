@@ -1,6 +1,6 @@
 Article Title: Digital Doppelgangers: Anatomy of Evolving Impersonation Campaigns Distributing Gh0st RAT
 Article Link: https://unit42.paloaltonetworks.com/impersonation-campaigns-deliver-gh0st-rat/
-Note: Below is a comma separated value (CSV) list of domains associated with the campaign identified in this article.
+Note: Below is a comma-separated value (CSV) list of domains associated with the campaign identified in this article (domains listed in alphabetical order).
 
 Domain	Hosting IP Address	First Seen Date/Time
 163vip-music[.]vip	156.251.25[.]112	2025-03-11 16:50:23 UTC
